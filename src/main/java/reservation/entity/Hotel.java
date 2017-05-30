@@ -77,6 +77,14 @@ public class Hotel implements Serializable {
         return hash;
     }
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public Adresse getAdresse() {
+        return adresse;
+    }
+
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set

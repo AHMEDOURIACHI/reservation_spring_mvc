@@ -50,14 +50,14 @@ public class HotelController {
         
     }
     
-      @RequestMapping(value = "/ajouter", method = RequestMethod.POST)
-    public String ajouterPOST(@model.addAttribute Hotel h){
+     // @RequestMapping(value = "/ajouter", method = RequestMethod.POST)
+    //public String ajouterPOST(@odel.addAttribute Hotel h){
         
-        ();
         
-        return "/hotel/ajouter.jsp";
         
-    }
+       // return "/hotel/ajouter.jsp";
+        
+  //  }
     
     @RequestMapping(value = "/supprimer/{idHotel}")
     public String supprimer(@PathVariable(value = "idHotel") long id){
